@@ -20,7 +20,7 @@ public class SecondServlet extends HttpServlet {
 
         response.setContentType("text/html;charset=UTF-8");
 
-       try( PrintWriter out = response.getWriter()){
+        try( PrintWriter out = response.getWriter()){
            out.println("<html>");
            out.println("<body>");
            out.println("<h1>First Servlet</h1>");
